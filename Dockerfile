@@ -1,4 +1,4 @@
-FROM node:20.20.2-trixie-slim
+FROM node:26.5.0-trixie-slim
 
 RUN apt-get update \
  && apt-get install -y --no-install-recommends python3 build-essential \
